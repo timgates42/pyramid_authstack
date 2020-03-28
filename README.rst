@@ -50,7 +50,7 @@ in an ACL::
 
 When you call `remember()
 <http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/api/security.html#pyramid.security.remember>`_ or `forget()
-<http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/api/security.html#pyramid.security.forget>`_ all sub-policies will be trigged. You can filter the list
+<http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/api/security.html#pyramid.security.forget>`_ all sub-policies will be triggered. You can filter the list
 of policies used by adding a `policies` parameter. A use case where this
 is important is a user coming to the site via a link in a newsletter: in
 that scenario you can identify the user, but do not want to give access
